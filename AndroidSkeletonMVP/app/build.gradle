@@ -6,6 +6,8 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'kotlin-kapt'
 
+apply from: "../tools/jacoco.gradle"
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -14,13 +16,34 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "0.1"
+        buildConfigField "String", "API_URL", "\"https://jsonplaceholder.typicode.com/\""
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        test.java.srcDirs += 'src/test/kotlin'
+        androidTest.java.srcDirs += 'src/androidTest/kotlin'
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            testCoverageEnabled true
+            debuggable true
+            versionNameSuffix '-dev'
+            applicationIdSuffix '.dev'
+        }
+    }
+    testOptions {
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+        animationsDisabled true
+
+        unitTests {
+            includeAndroidResources = true
+        }
+        unitTests.returnDefaultValues = true
     }
 }
 

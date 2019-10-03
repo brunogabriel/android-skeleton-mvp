@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidSkeletonMVP</string>
+    <string name="photo">Photo</string>
+    <string name="something_wrong_happened">Something wrong happened</string>
+    <string name="verify_connection">Verify your connection and try again later</string>
+    <string name="try_again">Try again</string>
 </resources>
