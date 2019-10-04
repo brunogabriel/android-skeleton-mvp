@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit
  */
 
 @VisibleForTesting
-var baseUrl: String? = null
+var urlTest: String? = null
 
 val networkModule = module {
     factory {
@@ -26,7 +26,7 @@ val networkModule = module {
     single {
         Retrofit.Builder()
             .client(get())
-            .baseUrl(baseUrl ?: BuildConfig.API_URL)
+            .baseUrl(urlTest ?: BuildConfig.API_URL)
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())
             .build()
