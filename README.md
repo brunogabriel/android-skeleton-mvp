@@ -1,6 +1,6 @@
 # android-skeleton-mvp
 
-[![Build Status](https://travis-ci.org/brunogabriel/android-skeleton-mvp.svg?branch=master)](https://travis-ci.org/brunogabriel/android-skeleton-mvp) [![CircleCI](https://circleci.com/gh/brunogabriel/android-skeleton-mvp.svg?style=svg)](https://circleci.com/gh/brunogabriel/android-skeleton-mvp) [![codecov](https://codecov.io/gh/brunogabriel/android-skeleton-mvp/branch/master/graph/badge.svg)] [![codebeat badge](https://codebeat.co/badges/33f497b6-65b8-43d0-8a4f-a6604fe3253a)](https://codebeat.co/projects/github-com-brunogabriel-android-skeleton-mvp-master)
+[![Build Status](https://travis-ci.org/brunogabriel/android-skeleton-mvp.svg?branch=master)](https://travis-ci.org/brunogabriel/android-skeleton-mvp) [![CircleCI](https://circleci.com/gh/brunogabriel/android-skeleton-mvp.svg?style=svg)](https://circleci.com/gh/brunogabriel/android-skeleton-mvp) [![codecov](https://codecov.io/gh/brunogabriel/android-skeleton-mvp/branch/master/graph/badge.svg)](https://codecov.io/gh/brunogabriel/android-skeleton-mvp) [![codebeat badge](https://codebeat.co/badges/33f497b6-65b8-43d0-8a4f-a6604fe3253a)](https://codebeat.co/projects/github-com-brunogabriel-android-skeleton-mvp-master)
 
 A basic structure to start new projects using Model View Presenter (MVP) architecture.
 
