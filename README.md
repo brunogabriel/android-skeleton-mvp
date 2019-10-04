@@ -46,7 +46,7 @@ The API used is [JSONPlaceholder](https://jsonplaceholder.typicode.com/), the da
 
 <p>
     <img src="screenshots/device1.png" width=200>
-    <div width="50"></div>
+    <img width=25>
     <img src="screenshots/device2.png" width=200>
 </p>
 
