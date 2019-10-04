@@ -44,8 +44,9 @@ The API used is [JSONPlaceholder](https://jsonplaceholder.typicode.com/), the da
 
 ## Showcase
 
-<p align=center>
+<p>
     <img src="screenshots/device1.png" width=200>
+    <div width="50"></div>
     <img src="screenshots/device2.png" width=200>
 </p>
 
