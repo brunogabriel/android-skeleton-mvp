@@ -8,6 +8,6 @@ import retrofit2.http.GET
  * Created by brunosantos on 2019-10-03.
  */
 interface PhotoService {
-    @GET("photos")
+    @GET("/photos")
     fun fetchPhotos(): Single<List<Photo>>
 }
