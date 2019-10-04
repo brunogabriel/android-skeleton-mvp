@@ -89,8 +89,6 @@ dependencies {
     // stetho
     implementation 'com.facebook.stetho:stetho:1.5.1'
 
-    implementation 'com.jakewharton.rxbinding3:rxbinding-material:3.0.0'
-
     // junit and mockito
     testImplementation 'androidx.test.ext:junit:1.1.1'
     testImplementation 'com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0'
